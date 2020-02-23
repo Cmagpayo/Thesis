@@ -22,13 +22,4 @@ public class Display extends AppCompatActivity implements AdapterView.OnItemSele
     }
 
 
-    @Override
-    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-        txt.setText(adapterView.getItemAtPosition(i).toString());
-    }
-
-    @Override
-    public void onNothingSelected(AdapterView<?> adapterView) {
-
-    }
 }
